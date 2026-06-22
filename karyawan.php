@@ -151,6 +151,8 @@ $result_karyawan = $conn->query($query_karyawan);
                     </thead>
                     
                     <tbody id="tabelKaryawan">
+
+                
                         <?php 
                         if ($result_karyawan->num_rows > 0) {
                             $no = 1;
